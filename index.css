@@ -5,6 +5,9 @@ body {
     margin: 0;
 }
 
+
+
+
 /* typography */
 
 h1 {
@@ -23,6 +26,9 @@ h3 {
     margin: 0;
 }
 
+
+
+
 /* links */
 a {
     color: #ef5839;
@@ -36,6 +42,9 @@ a:hover {
 a:active {
     color: #d4b44c;
 }
+
+
+
 
 /* layout */
 header {
@@ -59,4 +68,14 @@ section {
 
 .main-image {
     width: 100%;
+}
+
+.feature-image {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.section-two-feature-images {
+    display: flex;
+    justify-content: space-between;
 }
