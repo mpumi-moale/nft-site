@@ -5,9 +5,6 @@ body {
     margin: 0;
 }
 
-
-
-
 /* typography */
 
 h1, h3{
@@ -31,9 +28,6 @@ h3{
 p{
     line-height: 23px;
 }
-
-
-
 
 /* links */
 a {
