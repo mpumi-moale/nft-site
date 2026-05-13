@@ -10,20 +10,26 @@ body {
 
 /* typography */
 
-h1 {
-    color: whitesmoke;
-    font-size: 36px;
+h1, h3{
     margin: 0;
 }
 
-h2 {
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+h2{
     margin-top: 0;
 }
 
-h3 {
+h3{
     color: #d0aaff;
     font-size: 20px;
-    margin: 0;
+}
+
+p{
+    line-height: 23px;
 }
 
 
@@ -35,14 +41,40 @@ a {
     text-decoration: underline dotted;
 }
 
-a:hover {
-    color: #d4b44c;
+a:hover, a:active{
+    background-color: #f3e885;
+    color: #2b283a;
 }
 
-a:active {
-    color: #d4b44c;
+.buy-nfts,
+.more-info,
+.about-us,
+.contact {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
 }
 
+.buy-nfts {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.more-info {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about-us {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.contact {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
 
 
 
