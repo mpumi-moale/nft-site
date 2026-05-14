@@ -40,10 +40,7 @@ a:hover, a:active{
     color: #2b283a;
 }
 
-.buy-nfts,
-.more-info,
-.about-us,
-.contact {
+.btn {
     padding: 10px 19px;
     border-radius: 4.6px;
     font-weight: 500;
