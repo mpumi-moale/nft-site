@@ -1,1 +1,1 @@
-"# nft-site" 
+# updating the website to be responsive
