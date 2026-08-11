@@ -107,6 +107,9 @@ header,
 
 .main-image {
     width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 32px;
 }
 
