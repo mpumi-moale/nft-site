@@ -1,110 +1,131 @@
 body {
-    font-size: 16px;
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-/* typography */
+/* ----- TYPOGRAPHY ----- */
 
-h1, h3{
+h1, 
+h3 {
     margin: 0;
 }
 
-h1{
+h1 {
     color: whitesmoke;
     font-size: 36px;
 }
 
-h2{
+h2 {
+    color: #451c7a;
+    font-size: 28px;
     margin-top: 0;
 }
 
-h3{
-    color: #d0aaff;
+h3 {
     font-size: 20px;
 }
 
-p{
+p {
     line-height: 23px;
 }
 
-/* links */
-a {
-    color: #ef5839;
-    text-decoration: underline dotted;
+.subheading {
+    display: block;
+    font-size: 20px;
+    color: #d0aaff;
 }
 
-a:hover, a:active{
-    background-color: #f3e885;
-    color: #2b283a;
+.section-two h2 {
+    color: inherit;
+}
+
+/* ----- LINKS ----- */
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted; 
+}
+
+a:hover, 
+a:active {
+    color: #d4b44c;
 }
 
 .btn {
-    padding: 10px 19px;
-    border-radius: 4.6px;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4.6px;
 }
 
-.buy-nfts {
-    background-color: #5f29a3;
+.btn-dark {
     color: whitesmoke;
+    background: #5f29a3;
 }
 
-.more-info {
-    background-color: #f0e0ff;
-    color: #5f29a3;
+.btn-mid {
+    color: #5f29a3; 
+    background: #f0e0ff; 
 }
 
-.about-us {
-    background-color: whitesmoke;
-    color: #5f29a3;
+.btn-light {
+    color: #5f29a3; 
+    background: whitesmoke;
 }
 
-.contact {
-    background-color: #f0e0ff;
-    color: #5f29a3;
+.btn:hover, 
+.btn:active {
+    color: #2b238a;
+    background-color: #f3e885;
 }
 
+/* ----- LAYOUT ----- */
 
+header, 
+section, 
+footer {
+    padding: 46px 0;
+}
 
-/* layout */
-header {
+header, 
+.section-two {
     background-color: #5f29a3;
-    padding: 45px 0;
-}
-
-section {
-    padding: 45px 0;
 }
 
 .section-two {
     color: whitesmoke;
-    background-color: #5f29a3;
 }
 
+/*
+ Challenge:
+  Use a percentage value to create flexible containers 
+  that resize according to their parent’s width
+*/
+
 .container {
-    width: 620px;
+    width: 640px;
     margin: 0 auto;
 }
 
 .main-image {
     width: 100%;
+    margin-bottom: 32px;
 }
 
-.feature-image {
-    width: 300px;
-    border-radius: 4.6px;
-}
-
-.section-two-feature-images {
+.section-two-image-container {
     display: flex;
     justify-content: space-between;
 }
 
+.feature-image {
+    width: 310px;
+    border-radius: 4.6px;
+}
+
 footer {
     text-align: center;
-    padding: 45px 0;
     color: #5f29a3;
 }
