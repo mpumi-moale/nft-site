@@ -53,12 +53,13 @@ a:active {
 }
 
 .btn {
-    font-size: 1.125em;
+    font-size: 1.125em  ;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 0.056em 1.12em;
-    margin: 0.22em 0.22em;
+    padding: 0.5em 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
     border-radius: 4.6px;
 }
 
@@ -88,7 +89,7 @@ a:active {
 header, 
 section, 
 footer {
-    padding: 46px 0;
+    padding: 2.875em 0;
 }
 
 header, 
@@ -111,7 +112,7 @@ header,
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 32px;
+    margin-bottom: 2em;
 }
 
 .section-two-image-container {
