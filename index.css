@@ -32,7 +32,7 @@ p {
 
 .subheading {
     display: block;
-    font-size:  0.5555555555555556em;
+    font-size:  0.56em;
     color: #d0aaff;
 }
 
@@ -53,11 +53,12 @@ a:active {
 }
 
 .btn {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.056em 1.12em;
+    margin: 0.22em 0.22em;
     border-radius: 4.6px;
 }
 
