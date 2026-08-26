@@ -115,17 +115,11 @@ header,
     margin-bottom: 2em;
 }
 
-.section-two-image-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-
-}
 
 .feature-image {
     width: 100%;
+    margin-bottom: 1.5em;
     border-radius: 4.6px;
-    gap: 1.5em;
 }
 
 footer {
