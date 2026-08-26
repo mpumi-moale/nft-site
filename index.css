@@ -118,12 +118,14 @@ header,
 .section-two-image-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 1.5em;
+
 }
 
 .feature-image {
+    width: 100%;
     border-radius: 4.6px;
+    gap: 1.5em;
 }
 
 footer {
@@ -135,8 +137,8 @@ footer {
 
 @media (min-width: 768px) {
     .section-two-image-container {
-        flex-direction: row;
-        
+        display: flex;
+        justify-content: space-between;
     }
 
     .feature-image {
