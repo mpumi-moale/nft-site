@@ -12,7 +12,7 @@ A satirical NFT landing page for people who have **way too much money and questi
 
 ## 🚀 Live Demo
 
-nftwjpeg.netlify.app
+> nftwjpeg.netlify.app
 
 ---
 
