@@ -176,6 +176,21 @@ ul {
         padding: 2.875em 0;
     }
 
+    header .container,
+    nav ul {
+        display: flex;
+    }
+
+    header .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-left: 1.25em;
+        gap: 1.25em;
+    }
+
     .btn {
         font-size: 1.125rem  ;
         font-weight: 500;
