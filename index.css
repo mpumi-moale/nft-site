@@ -116,10 +116,20 @@ header,
 }
 
 
+.section-two-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
 .feature-image {
     width: 100%;
-    margin-bottom: 1.5em;
     border-radius: 4.6px;
+}
+
+.feature-item {
+    flex-basis: 260px;
+    flex-grow: 1;
 }
 
 footer {
@@ -142,8 +152,6 @@ ul {
     list-style-type: none;
 }
 
-
-
 /* ----- MEDIA QUERIES ----- */
 
 @media (max-width: 767px) {
@@ -161,15 +169,6 @@ ul {
 }
 
 @media (min-width: 768px) {
-    .section-two-image-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .feature-image {
-        width: 48.8%;
-    }
-
     header, 
     section, 
     footer {
