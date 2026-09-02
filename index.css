@@ -142,11 +142,23 @@ ul {
     list-style-type: none;
 }
 
-li:not(:last-child) {
-    border-bottom: 1px dotted #a190b6;
-}
+
 
 /* ----- MEDIA QUERIES ----- */
+
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 1.5em;
+    }
+
+    li:not(:last-child) {
+    border-bottom: 1px dotted #a190b6;
+}
+}
 
 @media (min-width: 768px) {
     .section-two-image-container {
