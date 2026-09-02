@@ -12,9 +12,7 @@ A satirical NFT landing page for people who have **way too much money and questi
 
 ## 🚀 Live Demo
 
-**[View the Website](http://127.0.0.1:5500/index.html)**
-
-> The link above is intended for local development using Live Server.
+nftwjpeg.netlify.app
 
 ---
 
